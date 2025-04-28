@@ -1,5 +1,11 @@
 package TrabajoPractico;
-
+/*
+Invertir valores array
+Escribe un programa java que invierta el orden de los valores de un array. Al invertir el orden
+de los valores de un array,  el último pasa a ser el primero, el penúltimo el segundo y así sucesivamente.
+El array está previamente  completo de valores enteros, que puede tener cualquier longitud.
+El programa primero dibujara por pantalla los elementos del array en orden y luego los elementos del array invertido.
+ */
 public class EjTres {
     public static void main(String[] args) {
         int[] numOrdenados = {100, 250, 23, 1, 99, 69, 7777};

@@ -1,5 +1,12 @@
 package TrabajoPractico;
-
+/*
+Numero veces letra en texto
+Escribe un programa que pida al usuario que introduzca un texto y una letra.
+Después el programa tiene que calcular y presentar por pantalla, cuantas veces aparece la letra en el texto.
+Pista: Un string es un array de caracteres. Para acceder a un elemento del string, usa la función chartAt(posición).
+Por ejemplo. Si el string es “Hola Mundo”, con la sentencia text.charAt(3), recuperamos el carácter ‘a’. Recuerda que
+las posiciones empiezan en 0.
+ */
 import java.util.Scanner;
 
 public class EjDos {
