@@ -1,4 +1,4 @@
-package TrabajoPractico;
+package trabajoPractico;
 /*
  Cargar Ticket
 Escribe un programa que pida al usuario que introduzca los datos de un ticket y luego los presente por pantalla.
@@ -31,7 +31,10 @@ public class EjCuatro {
         }
 
         for (int i = 0; i < 3; i++) {
-            System.out.printf("%-15s %-10d $%-14.2f $%.2f\n", producto[i], cantidadProducto[i], precioProducto[i], totalProducto[i]);
+            System.out.println("producto: "+ producto[i]);
+            System.out.println("cantidad de poducto: " + cantidadProducto[i]);
+            System.out.println("precio unitario: $ " + precioProducto[i] );
+            System.out.println("total del producto: $ " + totalProducto[i]);
         }
         System.out.printf("TOTAL A PAGAR: $" + total);
     }

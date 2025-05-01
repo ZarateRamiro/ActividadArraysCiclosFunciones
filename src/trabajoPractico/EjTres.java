@@ -1,4 +1,4 @@
-package TrabajoPractico;
+package trabajoPractico;
 /*
 Invertir valores array
 Escribe un programa java que invierta el orden de los valores de un array. Al invertir el orden
@@ -16,7 +16,7 @@ public class EjTres {
         for(int i=0; i<numOrdenados.length;i++){
             invertido[i]=numOrdenados [numOrdenados.length-1 -i];
         }
-        System.out.println("");
+        System.out.println();
             System.out.println("Array invertido:");
             for(int num2:invertido) {
                 System.out.print(num2 + " ");

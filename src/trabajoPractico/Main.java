@@ -1,4 +1,4 @@
-package TrabajoPractico;
+package trabajoPractico;
     /*
     Notas  de estudiantes
 Crea un programa que muestre por pantalla la nota de un estudiante buscándola de entre una
@@ -20,7 +20,6 @@ public class Main {
         String[] nombres = {"Ramiro", "Luis", "Antonio", "Parker", "Pitter"};
 
         int[] notas={5,6,7,4,8};
-        Scanner sc=new Scanner(System.in);
         mostrarMensjae(nombres,notas);
 
     }//cierre main
